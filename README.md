@@ -1,4 +1,4 @@
-# Real-Time Weather Checker
+🌦️ Real-Time Weather Checker
 
 A responsive web application built using HTML, CSS, and JavaScript that provides real-time weather updates for any city worldwide. Users can search for a city by clicking the search icon to instantly view current weather conditions, including temperature, humidity, and wind speed.
 
