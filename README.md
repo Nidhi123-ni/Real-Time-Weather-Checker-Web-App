@@ -29,6 +29,9 @@ A responsive web application built using HTML, CSS, and JavaScript that provides
 3. View live weather details instantly
 4. If an invalid city is entered, an error message is displayed
 
+## Screenshot
+![Real-Time Weather Checker Screenshot](images/screenshot.png)
+
 ## Author
 Nidhi123-ni
 
