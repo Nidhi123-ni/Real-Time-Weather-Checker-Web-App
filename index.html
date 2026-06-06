@@ -140,7 +140,7 @@
 
         </div>
         <div class="weather">
-            <img src="question-mark.png" class="weather-icon">
+            <img src="images/question-mark.png" class="weather-icon">
              <p class="status"></p>
             <h1 class="temp">0°C</h1>
             <h2 class="city">city</h2>
@@ -148,12 +148,12 @@
             
             <div class="details">
                 <div class="col">
-                <img src="cloud (1).png">
+                <img src="images/cloud (1).png">
                 <p class="humidity"></p>
                 <p>Humidity</p>
                 </div>
                 <div class="col">
-                <img src="wind (2).png">
+                <img src="images/wind (2).png">
                 <p class="wind"></p>
                 <p>Wind</p>
                 </div>
@@ -205,35 +205,35 @@
             document.querySelector(".wind").innerHTML=data.wind.speed + " km/hr";
            
             if(data.weather[0].main=="Clouds"){
-                weather_icon.src="cloudy.png";
+                weather_icon.src="images/cloudy.png";
                 status.innerHTML="<h4>Cloudy</h4>";
             }
             else if(data.weather[0].main=="Rain"){
-                weather_icon.src="thunderstorm.png";
+                weather_icon.src="images/thunderstorm.png";
                 status.innerHTML="<h4>Rainy</h4>";
             }
              else if(data.weather[0].main=="Clear"){
-                weather_icon.src="sunny.png";
+                weather_icon.src="images/sunny.png";
                 status.innerHTML="<h4>Clear</h4>";
             }
              else if(data.weather[0].main=="Drizzle"){
-                weather_icon.src="drizzle.png";
+                weather_icon.src="images/drizzle.png";
                 status.innerHTML="<h4>Drizzle</h4>";
             }
             else if(data.weather[0].main=="Snow"){
-                weather_icon.src="snowy.png";
+                weather_icon.src="images/snowy.png";
                 status.innerHTML="<h4>Snow</h4>";
             }
             else if(data.weather[0].main=="Haze"){
-                weather_icon.src="haze.png";
+                weather_icon.src="images/haze.png";
                 status.innerHTML="<h4>Haze</h4>";
             }
             else if(data.weather[0].main=="Smoke"){
-                weather_icon.src="nature.png";
+                weather_icon.src="images/nature.png";
                 status.innerHTML="<h4>Smoke</h4>";
             }
              else if(data.weather[0].main=="Mist"){
-                weather_icon.src="fog.png";
+                weather_icon.src="images/fog.png";
                 status.innerHTML="<h4>Mist</h4>";
             }
 
