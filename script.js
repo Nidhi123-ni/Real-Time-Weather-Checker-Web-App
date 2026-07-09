@@ -7,8 +7,8 @@
         const city=document.querySelector('.city');
 
 
-        const apikey="c362c96b1ed026bf378ea41d961d84ac";
-        const apiurl="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+        const apikey="Your API Key";
+        const apiurl="URL";
         async function checkweather(cityname){
             const response=await fetch(apiurl +cityname + `&appid=${apikey}`);
              var data=await response.json();
